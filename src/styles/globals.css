@@ -9,6 +9,11 @@
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+      @apply prose max-w-full prose-h2:m-0 font-poppins;
+  }
+
+  ul {
+    list-style-type: none;
   }
 
   a {
